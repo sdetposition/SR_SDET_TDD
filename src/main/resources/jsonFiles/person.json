@@ -1,0 +1,16 @@
+{
+    "firstName": "Chandra",
+    "lastName": "Narayana",
+    "address": [
+        {
+            "street": "abc",
+            "city": "Hyderabad",
+            "state": "TG"
+        },
+        {
+            "street": "xyz",
+            "city": "Banglore",
+            "state": "KA"
+        }
+    ]
+}
