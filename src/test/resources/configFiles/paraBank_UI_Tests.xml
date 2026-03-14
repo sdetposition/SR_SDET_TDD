@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="paraBank" verbose="1">
+	<listeners>
+		<listener class-name="com.parabank.commons.RetryListner" />
+	</listeners>
+
+	<parameter name="browser" value="${browser}" />
+	<test name="ChromeTests">
+		<classes>
+			<class name="com.parabank.tests.LoginTest" />
+			<class name="com.parabank.tests.AccountsOverviewTest" />
+			<class name="com.parabank.tests.LogoutTest" />
+			
+		</classes>
+	</test>
+
+</suite>
