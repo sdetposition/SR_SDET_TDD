@@ -30,6 +30,10 @@ public class BaseTest {
 			prefs.put("autofill.credit_card_enabled", false);
 			prefs.put("credentials_enable_service", false);
 			prefs.put("profile.password_manager_enabled", false);
+			
+			options.addArguments("--headless=new");
+			options.addArguments("--window-size=1920,1080");
+			options.addArguments("--disable-gpu");
 
 			options.setExperimentalOption("prefs", prefs);
 			
