@@ -1,5 +1,7 @@
 package com.parabank.pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -7,13 +9,13 @@ public class LoginPage {
 	
 	WebDriver driver;
 	
-	String user_Feild_name = "username";
+	String user_Feild_xpath = "//*[@name='username']";
 	String pwd_Feild_name = "password";
 	String login_btn_xpath = "//*[@type='submit' and @value='Log In']";
 	
 	String url = "https://parabank.parasoft.com/parabank/index.htm";
 	
-	private By userFeild = By.name(user_Feild_name);
+	private By userFeild = By.xpath(user_Feild_xpath);
 	private By pwd_Feild = By.name(pwd_Feild_name);
 	private By login_Btn = By.xpath(login_btn_xpath);
 	
@@ -47,9 +49,11 @@ public class LoginPage {
 	}
 	
 	public void loginUser(String user, String pwd) {
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		enterUser_In_UserFeild(user);
 		enterPwd_In_PwdFeild(pwd);
 		clickOn_LoginBtn();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 	}
 
 }

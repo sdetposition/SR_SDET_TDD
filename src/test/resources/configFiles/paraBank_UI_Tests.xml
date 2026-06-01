@@ -7,10 +7,11 @@
 	<parameter name="browser" value="${browser}" />
 	<test name="ChromeTests">
 		<classes>
+			<class name="com.parabank.tests.RegisterTest" />
 			<class name="com.parabank.tests.LoginTest" />
 			<class name="com.parabank.tests.AccountsOverviewTest" />
 			<class name="com.parabank.tests.LogoutTest" />
-			
+
 		</classes>
 	</test>
 

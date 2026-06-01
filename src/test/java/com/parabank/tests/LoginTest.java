@@ -6,16 +6,20 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.parabank.BaseTest;
+import com.parabank.TestContext;
+import com.parabank.commons.UserInfo;
 import com.parabank.pages.LoginPage;
 
 public class LoginTest extends BaseTest {
 	
-	private LoginPage loginPage;	
+	private LoginPage loginPage;
+	private UserInfo uInfo;
 	
 	@BeforeClass
 	public void setupLoginPage() {
-		System.out.println("Web Driver : "+getDriver());
 		loginPage = new LoginPage(getDriver());
+		
+		uInfo = TestContext.getTestContext().getUserInfo();		
 	}
 
 	@Test(priority = 1)
@@ -40,9 +44,10 @@ public class LoginTest extends BaseTest {
 	}
 	
 	@Test(priority = 4)
-	public void loginUser() {
+	public void loginUser()  {
 	//	System.out.println("Thread : "+Thread.currentThread().getName());
-		loginPage.loginUser("cnr", "Test@111");
+		loginPage.loginUser( uInfo.getUser(), uInfo.getPwd());
+		
 	}
 	
 	@AfterClass
