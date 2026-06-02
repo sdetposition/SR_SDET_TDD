@@ -8,10 +8,17 @@ pipeline {
                     url: 'https://github.com/sdetposition/SR_SDET_TDD.git'
             }
         }
+        
+        stage('Clean Repo') {
+            steps {
+                bat 'mvn clean'
+            }
+        }
+    }
 
         stage('Run Tests') {
             steps {
-                bat 'mvn clean test -Dbrowser=chrome'
+                bat 'mvn test -Dbrowser=chrome'
             }
         }
     }
