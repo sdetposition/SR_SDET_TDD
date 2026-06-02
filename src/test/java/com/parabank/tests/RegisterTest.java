@@ -10,6 +10,7 @@ import com.parabank.commons.Commons;
 import com.parabank.commons.UserInfo;
 import com.parabank.pages.LogoutPage;
 import com.parabank.pages.RegisterPage;
+import com.parabank.utils.LogUtil;
 
 import junit.framework.Assert;
 
@@ -24,11 +25,15 @@ public class RegisterTest extends BaseTest{
 	
 	@BeforeClass
 	public void setUpRegisterPage() {
+		LogUtil.info("RegisterTest - setUpRegisterPage");
 		registerPage = new RegisterPage(getDriver());
 		logoutPage = new LogoutPage(getDriver());		
 		
 		String user = Commons.generateRandomString(6);
 		String pwd = Commons.generateRandomString(8);
+		LogUtil.info("User - "+user+" : Pwd - "+pwd);
+		
+		
 		
 		uInfo = new UserInfo(user,pwd);
 		TestContext.getTestContext().setUserInfo(uInfo);

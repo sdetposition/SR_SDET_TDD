@@ -93,6 +93,9 @@
 
 					<systemPropertyVariables>
 						<browser>${browser}</browser>
+						<log4j.configurationFile>
+							src/test/resources/configFiles/log4j2.xml
+						</log4j.configurationFile>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>

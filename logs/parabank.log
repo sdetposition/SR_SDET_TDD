@@ -1,0 +1,8 @@
+2026-06-02 21:12:17 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-02 21:12:19 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@11653e3b
+2026-06-02 21:12:19 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-02 21:12:21 INFO  LogUtil:11 - User - SONOOC : Pwd - EATZTKFY
+2026-06-02 21:12:21 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-02 21:12:22 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-02 21:12:27 INFO  LogUtil:11 - Logout the Page
+2026-06-02 21:12:27 INFO  LogUtil:11 - Close the Browser

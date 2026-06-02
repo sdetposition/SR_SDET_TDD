@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 
 import com.parabank.TestContext;
 import com.parabank.commons.UserInfo;
+import com.parabank.utils.LogUtil;
 
 public class RegisterPage {	
 	
@@ -102,8 +103,9 @@ public class RegisterPage {
 	}
 	
 	
-	public void submitForm(UserInfo uInfo) {		
+	public void submitForm(UserInfo uInfo) {
 		this.uInfo = uInfo;
+		LogUtil.info("Started LoginPage - submitForm");
 		
 		enterFirstName();
 		enterLastName();
@@ -118,5 +120,6 @@ public class RegisterPage {
 		enterPassword();
 		enterConfirmPWD();
 		submitBtn();
+		LogUtil.info("Ended LoginPage - submitForm");
 	}
 }

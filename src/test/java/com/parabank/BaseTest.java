@@ -12,6 +12,8 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
+import com.parabank.utils.LogUtil;
+
 public class BaseTest {
 
 	private static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();	
@@ -20,6 +22,7 @@ public class BaseTest {
 	@BeforeSuite
 	@Parameters("browser")
 	public void setDriver(String browser) {
+		LogUtil.info("Base Test - setDriver with Browser - "+browser);
 
 		if (browser.equals("chrome")) {
 			
@@ -48,6 +51,8 @@ public class BaseTest {
 		driver.get().manage().window().maximize();
 		
 		tContext = new TestContext();
+		
+		LogUtil.info("Test Context Is - "+tContext);
 	}
 
 	public WebDriver getDriver() {
