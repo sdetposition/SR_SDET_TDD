@@ -32,7 +32,7 @@ public class AccountsOverviewTest extends BaseTest {
 	public void verifyAccbalance() {
 		String accbal = accOverViewPage.getAccBalance();
 		Assert.assertEquals(accbal.replace("$", ""), "515.50");
-		System.out.println("Testing ");
+		System.out.println("Testing");
 		
 	}
 
