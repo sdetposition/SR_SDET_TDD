@@ -11,13 +11,13 @@ pipeline {
         
         stage('Clean Repo') {
             steps {
-                bat 'mvn clean'
+                sh 'mvn clean'
             }
 		}
 
         stage('Run Tests') {
             steps {
-                bat 'mvn test -Dbrowser=chrome'
+                sh 'mvn test -Dbrowser=chrome'
             }
         }
     }
