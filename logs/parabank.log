@@ -5,4 +5,4 @@
 2026-06-02 21:12:21 INFO  LogUtil:11 - Started LoginPage - submitForm
 2026-06-02 21:12:22 INFO  LogUtil:11 - Ended LoginPage - submitForm
 2026-06-02 21:12:27 INFO  LogUtil:11 - Logout the Page
-2026-06-02 21:12:27 INFO  LogUtil:11 - Close the Browser
+2026-06-02 21:12:27 INFO  LogUtil:11 - Close the Browser 
