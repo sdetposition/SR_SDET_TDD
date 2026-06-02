@@ -13,8 +13,7 @@ pipeline {
             steps {
                 bat 'mvn clean'
             }
-        }
-    }
+		}
 
         stage('Run Tests') {
             steps {
