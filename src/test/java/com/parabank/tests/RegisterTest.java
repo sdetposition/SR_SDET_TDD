@@ -10,6 +10,7 @@ import com.parabank.commons.Commons;
 import com.parabank.commons.UserInfo;
 import com.parabank.pages.LogoutPage;
 import com.parabank.pages.RegisterPage;
+import com.parabank.utils.ExtentTestManager;
 import com.parabank.utils.LogUtil;
 
 import junit.framework.Assert;
@@ -32,6 +33,7 @@ public class RegisterTest extends BaseTest{
 		String user = Commons.generateRandomString(6);
 		String pwd = Commons.generateRandomString(8);
 		LogUtil.info("User - "+user+" : Pwd - "+pwd);
+		//ExtentTestManager.getTest().info("User - "+user+" : Pwd - "+pwd);
 		
 		
 		

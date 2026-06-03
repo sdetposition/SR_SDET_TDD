@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="paraBank" verbose="1">
 	<listeners>
+		<listener class-name="com.parabank.listners.TListener" />
 		<listener class-name="com.parabank.commons.RetryListner" />
 	</listeners>
 
@@ -11,7 +12,6 @@
 			<class name="com.parabank.tests.LoginTest" />
 			<class name="com.parabank.tests.AccountsOverviewTest" />
 			<class name="com.parabank.tests.LogoutTest" />
-
 		</classes>
 	</test>
 

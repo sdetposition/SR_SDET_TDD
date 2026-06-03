@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 
 import com.parabank.TestContext;
 import com.parabank.commons.UserInfo;
+import com.parabank.utils.ExtentTestManager;
 import com.parabank.utils.LogUtil;
 
 public class RegisterPage {	
@@ -106,6 +107,7 @@ public class RegisterPage {
 	public void submitForm(UserInfo uInfo) {
 		this.uInfo = uInfo;
 		LogUtil.info("Started LoginPage - submitForm");
+		ExtentTestManager.getTest().info("Started LoginPage - submitForm");
 		
 		enterFirstName();
 		enterLastName();
@@ -121,5 +123,6 @@ public class RegisterPage {
 		enterConfirmPWD();
 		submitBtn();
 		LogUtil.info("Ended LoginPage - submitForm");
+		ExtentTestManager.getTest().info("Ended LoginPage - submitForm");
 	}
 }

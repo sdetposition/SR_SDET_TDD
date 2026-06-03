@@ -6,3 +6,74 @@
 2026-06-02 21:12:22 INFO  LogUtil:11 - Ended LoginPage - submitForm
 2026-06-02 21:12:27 INFO  LogUtil:11 - Logout the Page
 2026-06-02 21:12:27 INFO  LogUtil:11 - Close the Browser 
+2026-06-03 09:31:33 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 09:41:16 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 09:44:08 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 09:46:03 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 09:59:59 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 10:00:03 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@6f8f8a80
+2026-06-03 10:00:48 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 10:00:50 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@7004e3d
+2026-06-03 10:00:50 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-03 10:00:53 INFO  LogUtil:11 - User - EAIYON : Pwd - SBYFYQYG
+2026-06-03 10:01:12 INFO  LogUtil:11 - Close the Browser
+2026-06-03 10:08:31 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 10:08:33 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@314c8b4a
+2026-06-03 10:08:33 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-03 10:08:37 INFO  LogUtil:11 - User - TJAOGF : Pwd - GJFZICMZ
+2026-06-03 10:08:55 INFO  LogUtil:11 - Close the Browser
+2026-06-03 10:11:19 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 10:11:20 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@4a05d8ae
+2026-06-03 10:11:21 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-03 10:11:25 INFO  LogUtil:11 - User - KTCDYY : Pwd - PBDVNHFY
+2026-06-03 10:11:44 INFO  LogUtil:11 - Close the Browser
+2026-06-03 10:12:12 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 10:12:14 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@5246a3b3
+2026-06-03 10:12:14 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-03 10:12:17 INFO  LogUtil:11 - User - QFMBMP : Pwd - MAPQHCPV
+2026-06-03 10:12:37 INFO  LogUtil:11 - Close the Browser
+2026-06-03 10:26:16 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 10:26:18 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@bb9ab64
+2026-06-03 10:26:18 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-03 10:26:20 INFO  LogUtil:11 - User - VPWZLF : Pwd - NBAMDGQD
+2026-06-03 10:26:39 INFO  LogUtil:11 - Close the Browser
+2026-06-03 10:56:56 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 10:56:58 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@3e9803c2
+2026-06-03 10:56:58 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-03 10:57:02 INFO  LogUtil:11 - User - YPAFGL : Pwd - FMZCDYRH
+2026-06-03 10:57:02 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-03 10:57:03 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-03 10:57:09 INFO  LogUtil:11 - Logout the Page
+2026-06-03 10:57:09 INFO  LogUtil:11 - Close the Browser
+2026-06-03 11:01:38 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 11:01:42 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@7004e3d
+2026-06-03 11:01:42 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-03 11:01:44 INFO  LogUtil:11 - User - RVSEKN : Pwd - XDFUTRMV
+2026-06-03 11:01:45 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-03 11:01:46 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-03 11:01:51 INFO  LogUtil:11 - Logout the Page
+2026-06-03 11:01:51 INFO  LogUtil:11 - Close the Browser
+2026-06-03 11:07:26 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 11:07:28 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@bb9ab64
+2026-06-03 11:07:28 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-03 11:07:31 INFO  LogUtil:11 - User - YRNLEU : Pwd - CDWRIYUY
+2026-06-03 11:07:31 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-03 11:07:32 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-03 11:07:36 INFO  LogUtil:11 - Logout the Page
+2026-06-03 11:07:36 INFO  LogUtil:11 - Close the Browser
+2026-06-03 11:11:09 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 11:11:10 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@a52ca2e
+2026-06-03 11:11:10 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-03 11:11:14 INFO  LogUtil:11 - User - MBEJVY : Pwd - GCNVHJAU
+2026-06-03 11:11:14 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-03 11:11:15 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-03 11:11:20 INFO  LogUtil:11 - Logout the Page
+2026-06-03 11:11:20 INFO  LogUtil:11 - Close the Browser
+2026-06-03 11:13:41 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-03 11:13:42 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@acf859d
+2026-06-03 11:13:42 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-03 11:13:45 INFO  LogUtil:11 - User - BMWEZZ : Pwd - OCETYFTL
+2026-06-03 11:13:45 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-03 11:13:46 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-03 11:13:51 INFO  LogUtil:11 - Logout the Page
+2026-06-03 11:13:51 INFO  LogUtil:11 - Close the Browser

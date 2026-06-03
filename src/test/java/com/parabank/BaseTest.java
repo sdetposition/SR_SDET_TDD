@@ -12,6 +12,9 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.parabank.utils.ExtentManager;
+import com.parabank.utils.ExtentTestManager;
 import com.parabank.utils.LogUtil;
 
 public class BaseTest {
@@ -23,6 +26,8 @@ public class BaseTest {
 	@Parameters("browser")
 	public void setDriver(String browser) {
 		LogUtil.info("Base Test - setDriver with Browser - "+browser);
+		ExtentManager.getExtentInstance();
+	//	ExtentTestManager.getTest().info("Base Test - setDriver with Browser - "+browser);
 
 		if (browser.equals("chrome")) {
 			
@@ -34,7 +39,7 @@ public class BaseTest {
 			prefs.put("credentials_enable_service", false);
 			prefs.put("profile.password_manager_enabled", false);
 			
-			options.addArguments("--headless=new");
+		//	options.addArguments("--headless=new");
 			options.addArguments("--window-size=1920,1080");
 			options.addArguments("--disable-gpu");
 
@@ -53,6 +58,7 @@ public class BaseTest {
 		tContext = new TestContext();
 		
 		LogUtil.info("Test Context Is - "+tContext);
+		//ExtentTestManager.getTest().info("Test Context Is - "+tContext);
 	}
 
 	public WebDriver getDriver() {
