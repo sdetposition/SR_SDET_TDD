@@ -21,15 +21,6 @@ pipeline {
             }
         }
     }
-    
-    	stage('SonarQube Analysis') {
-            steps {
-				withSonarQubeEnv('SonarQube') { 
-					sh ''' mvn sonar:sonar \ -Dsonar.projectKey=SR_SDET_TDD \ -Dsonar.projectName=SR_SDET_TDD '''
-				}
-            }
-		}
-
 
     post {
         always {
