@@ -16,11 +16,18 @@ stages {
             }
 		}
 
-    	stage('Run Tests') {
-            steps {
-                sh 'mvn test -Dbrowser=chrome'
-            }
-        }
+ 		stage('Run BrowserStack Tests in Parallel') {
+			parallel {
+				
+				stage('Run Tests') {
+            		steps {
+						browserstack(credentialsId: 'browserstack') {
+                            sh 'mvn test -Dbrowser=chrome'
+                        }
+            		}
+        		}
+			}		
+		}
 
     stage('SonarQube Analysis') {
         steps {
