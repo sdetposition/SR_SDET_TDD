@@ -21,7 +21,7 @@ stages {
 				
 				stage('Run Tests') {
             		steps {
-						browserstack(credentialsId: 'browserstack') {
+						browserstack(credentialsId: 'browserstack_cred') {
                             sh 'mvn test -Dbrowser=chrome'
                         }
             		}
