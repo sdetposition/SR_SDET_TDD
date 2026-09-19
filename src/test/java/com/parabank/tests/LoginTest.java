@@ -1,8 +1,8 @@
 package com.parabank.tests;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.parabank.BaseTest;
@@ -15,7 +15,7 @@ public class LoginTest extends BaseTest {
 	private LoginPage loginPage;
 	private UserInfo uInfo;
 	
-	@BeforeClass
+	@BeforeMethod
 	public void setupLoginPage() {
 		loginPage = new LoginPage(getDriver());
 		
@@ -23,10 +23,11 @@ public class LoginTest extends BaseTest {
 	}
 
 	@Test(priority = 1)
-	public void validateUserFeild() {
+	public void validateUserFeild() throws InterruptedException {
 		//System.out.println("Thread : "+Thread.currentThread().getName());
 		boolean userFeild = loginPage.getUserFeild();
-		Assert.assertEquals(userFeild, true);
+		System.out.println("User Fields Resulst : "+userFeild);
+		Assert.assertTrue(userFeild);
 	}
 
 	@Test(priority = 2)
@@ -50,8 +51,8 @@ public class LoginTest extends BaseTest {
 		
 	}
 	
-	@AfterClass
-	public void tearTown() {
+	@AfterMethod
+	public void tearDown() {
 		//tearDown();
 	}
 

@@ -4,10 +4,14 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import com.parabank.utils.WaitsUtil;
 
 public class LoginPage {
 	
 	WebDriver driver;
+	WaitsUtil wait;
 	
 	String user_Feild_xpath = "//*[@name='username']";
 	String pwd_Feild_name = "password";
@@ -22,10 +26,12 @@ public class LoginPage {
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 		driver.get(url);
+		wait = new WaitsUtil(driver);
 	}
 	
-	public boolean getUserFeild() {
-		return driver.findElement(userFeild).isDisplayed();
+	public boolean getUserFeild() throws InterruptedException {
+		WebElement ele = wait.waitElementPresent(userFeild);
+		return ele.isDisplayed();
 	}
 	
 	public boolean getPwdFeild() {

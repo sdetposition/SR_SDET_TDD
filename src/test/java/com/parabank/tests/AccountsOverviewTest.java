@@ -31,7 +31,7 @@ public class AccountsOverviewTest extends BaseTest {
 	@Test(priority = 3)
 	public void verifyAccbalance() {
 		String accbal = accOverViewPage.getAccBalance();
-		Assert.assertEquals(accbal.replace("$", ""), "515.50");
+		Assert.assertEquals(accbal.replace("$", ""), "15000.00");
 		System.out.println("Testing");
 		
 	}

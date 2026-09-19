@@ -2,9 +2,7 @@ package com.parabank.commons;
 
 import java.util.Random;
 
-import com.parabank.BaseTest;
-
-public class Commons extends BaseTest {
+public class Commons{
 	
 	public String user;
 	public static String pwd;

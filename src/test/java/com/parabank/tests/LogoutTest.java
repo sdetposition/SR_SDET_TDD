@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 
 import com.parabank.BaseTest;
 import com.parabank.pages.LogoutPage;
-import com.parabank.utils.ExtentTestManager;
 import com.parabank.utils.LogUtil;
 
 public class LogoutTest extends BaseTest {

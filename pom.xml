@@ -1,10 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
+ <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com..sr_sdet_prep</groupId>
+	<groupId>com.sr_sdet_prep</groupId>
 	<artifactId>SR_SDET_PREP</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -100,7 +101,7 @@
 					</suiteXmlFiles>
 
 					<systemPropertyVariables>
-						<browser>${browser}</browser>
+					<!--	<browser>${browser}</browser> -->
 						<log4j.configurationFile>
 							src/test/resources/configFiles/log4j2.xml
 						</log4j.configurationFile>

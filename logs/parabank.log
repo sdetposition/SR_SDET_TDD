@@ -77,3 +77,260 @@
 2026-06-03 11:13:46 INFO  LogUtil:11 - Ended LoginPage - submitForm
 2026-06-03 11:13:51 INFO  LogUtil:11 - Logout the Page
 2026-06-03 11:13:51 INFO  LogUtil:11 - Close the Browser
+2026-06-05 19:35:32 INFO  LogUtil:11 - Base Test - setDriver with Browser - chrome
+2026-06-05 19:40:13 INFO  LogUtil:11 - Base Test - setDriver with Browser - Chrome
+2026-06-05 20:05:49 INFO  LogUtil:11 - Base Test - setDriver with Browser - Chrome
+2026-06-05 20:06:06 INFO  LogUtil:11 - Base Test - setDriver with Browser - Chrome
+2026-06-05 20:09:38 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@15fc442
+2026-06-05 20:09:38 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-05 20:10:41 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@1d269ed7
+2026-06-05 20:10:41 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-05 20:15:39 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@15fc442
+2026-06-05 20:15:39 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-05 20:23:55 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@5aa6202e
+2026-06-05 20:23:55 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-05 20:26:07 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@1d269ed7
+2026-06-05 20:26:07 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-05 20:29:25 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@867ba60
+2026-06-05 20:29:25 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-05 21:31:38 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@1d269ed7
+2026-06-05 21:31:38 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-05 21:38:36 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@6034e75d
+2026-06-05 21:38:36 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-05 21:38:43 INFO  LogUtil:11 - User - BSRDOQ : Pwd - WBHJLJOR
+2026-06-05 21:38:43 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-05 21:38:48 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-05 21:38:58 INFO  LogUtil:11 - Logout the Page
+2026-06-05 21:39:00 INFO  LogUtil:11 - Close the Browser
+2026-06-05 21:48:07 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@1d269ed7
+2026-06-05 21:48:07 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-05 21:48:11 INFO  LogUtil:11 - User - EVPDZD : Pwd - BTODHPNK
+2026-06-05 21:48:11 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-05 21:48:16 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-05 21:48:23 INFO  LogUtil:11 - Logout the Page
+2026-06-05 21:48:23 INFO  LogUtil:11 - Close the Browser
+2026-06-07 08:45:08 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@3af9aa66
+2026-06-07 08:45:08 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-07 08:45:11 INFO  LogUtil:11 - User - VMWNGB : Pwd - TJXBAJGC
+2026-06-07 08:45:11 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-07 08:45:17 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-07 08:45:25 INFO  LogUtil:11 - Logout the Page
+2026-06-07 08:45:25 INFO  LogUtil:11 - Close the Browser
+2026-06-07 14:58:33 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@20921b9b
+2026-06-07 14:58:33 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-07 14:58:36 INFO  LogUtil:11 - User - MKZVSC : Pwd - NYTHHSHU
+2026-06-07 14:58:36 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-07 14:58:38 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-07 14:58:43 INFO  LogUtil:11 - Logout the Page
+2026-06-07 14:58:43 INFO  LogUtil:11 - Close the Browser
+2026-06-07 15:00:06 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@91c4a3f
+2026-06-07 15:00:06 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-07 15:00:09 INFO  LogUtil:11 - User - SDOSNJ : Pwd - ZJWHIFZM
+2026-06-07 15:00:09 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-07 15:00:11 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-07 15:00:16 INFO  LogUtil:11 - Logout the Page
+2026-06-07 15:00:16 INFO  LogUtil:11 - Close the Browser
+2026-06-07 15:14:34 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@31be6b49
+2026-06-07 15:14:34 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-07 15:14:34 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-07 15:16:03 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@20921b9b
+2026-06-07 15:16:03 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-07 15:16:03 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-07 15:42:43 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@14de045c
+2026-06-07 16:29:16 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@341d49ad
+2026-06-07 16:29:46 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-07 16:29:51 INFO  LogUtil:11 - User - IODLRQ : Pwd - ASQGXOVO
+2026-06-07 16:29:51 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-07 16:29:52 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-07 16:30:00 INFO  LogUtil:11 - Close the Browser
+2026-06-07 16:34:13 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@5c1373d6
+2026-06-07 16:37:49 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@109f5dd8
+2026-06-07 16:37:49 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-07 16:37:59 INFO  LogUtil:11 - User - SNWGFV : Pwd - TZKJIQHT
+2026-06-07 16:38:00 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-07 16:38:29 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-07 16:39:09 INFO  LogUtil:11 - Logout the Page
+2026-06-07 16:39:09 INFO  LogUtil:11 - Close the Browser
+2026-06-07 16:40:21 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@441fbe89
+2026-06-07 16:40:21 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-07 16:40:32 INFO  LogUtil:11 - User - OIULRB : Pwd - DXNTXMEN
+2026-06-07 16:40:32 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-07 16:40:44 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-07 16:41:02 INFO  LogUtil:11 - Logout the Page
+2026-06-07 16:41:07 INFO  LogUtil:11 - Close the Browser
+2026-06-07 17:08:35 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@50539fae
+2026-06-07 17:09:06 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-06-07 17:09:12 INFO  LogUtil:11 - User - YDJPJA : Pwd - YJQGGNUZ
+2026-06-07 17:09:12 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-06-07 17:09:16 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-06-07 17:09:32 INFO  LogUtil:11 - Close the Browser
+2026-09-19 21:10:16 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@20a2153e
+2026-09-19 21:10:16 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@2ac94694
+2026-09-19 21:10:16 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 21:10:16 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 21:10:19 INFO  LogUtil:11 - User - EOSRQM : Pwd - MMGMSEML
+2026-09-19 21:10:19 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 21:11:07 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@999fac1
+2026-09-19 21:11:07 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 21:11:08 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@5a3b3c24
+2026-09-19 21:11:08 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 21:11:09 INFO  LogUtil:11 - User - HANQMG : Pwd - IPAQOGWV
+2026-09-19 21:11:09 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 21:11:10 INFO  LogUtil:11 - User - QMXRVM : Pwd - CPTYRNIF
+2026-09-19 21:11:10 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 21:14:01 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@692c4b68
+2026-09-19 21:14:01 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@1e622507
+2026-09-19 21:14:01 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 21:14:01 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 21:14:04 INFO  LogUtil:11 - User - HXWZDE : Pwd - PQCVRMNY
+2026-09-19 21:14:04 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 21:50:19 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@24f24586
+2026-09-19 21:50:19 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 21:50:20 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@24f24586
+2026-09-19 21:50:20 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 21:50:21 INFO  LogUtil:11 - User - SXDZTP : Pwd - TPDZHOYE
+2026-09-19 21:50:21 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 21:50:22 INFO  LogUtil:11 - User - QFYOMD : Pwd - OUILALGY
+2026-09-19 21:50:22 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 21:50:22 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-09-19 21:50:22 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-09-19 21:51:20 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@3e32a73b
+2026-09-19 21:51:20 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@3e32a73b
+2026-09-19 21:51:20 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 21:51:20 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 21:51:22 INFO  LogUtil:11 - User - HUQOKA : Pwd - HBSPEOXH
+2026-09-19 21:51:22 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 21:51:23 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 21:51:33 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 21:53:58 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@467e3959
+2026-09-19 21:53:58 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 21:53:59 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@467e3959
+2026-09-19 21:53:59 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 21:54:00 INFO  LogUtil:11 - User - OYRLNG : Pwd - QJXHXXZB
+2026-09-19 21:54:00 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 21:54:01 INFO  LogUtil:11 - User - EVKYRL : Pwd - PTNMPHMH
+2026-09-19 21:54:01 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 21:54:01 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-09-19 21:54:01 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-09-19 22:05:33 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@3f595f4c
+2026-09-19 22:05:33 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:05:35 INFO  LogUtil:11 - User - INTRUZ : Pwd - QYDQHHCX
+2026-09-19 22:05:35 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 22:05:36 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-09-19 22:06:45 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@234c2f58
+2026-09-19 22:06:45 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:06:47 INFO  LogUtil:11 - User - QLUPPU : Pwd - NOVKYPEW
+2026-09-19 22:06:48 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 22:06:48 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-09-19 22:08:03 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@47f61554
+2026-09-19 22:08:03 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:08:05 INFO  LogUtil:11 - User - CNYMXO : Pwd - MYGYKSYH
+2026-09-19 22:08:05 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 22:08:06 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-09-19 22:18:35 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@3a3d83a
+2026-09-19 22:18:35 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:18:37 INFO  LogUtil:11 - User - PVFBPN : Pwd - XDSSDJTQ
+2026-09-19 22:18:37 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 22:18:38 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-09-19 22:18:38 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 22:18:40 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 22:22:55 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@1bd46f24
+2026-09-19 22:22:55 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:22:57 INFO  LogUtil:11 - User - KQTVYS : Pwd - PIQXVRDR
+2026-09-19 22:22:57 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 22:22:58 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-09-19 22:25:40 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@15f193b8
+2026-09-19 22:25:40 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:25:43 INFO  LogUtil:11 - User - ECCWPP : Pwd - OBNUAHNN
+2026-09-19 22:25:43 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 22:25:43 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-09-19 22:25:43 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 22:25:46 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 22:32:42 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@408a247c
+2026-09-19 22:32:42 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:32:44 INFO  LogUtil:11 - User - IFQKUI : Pwd - RAHPMWJV
+2026-09-19 22:32:44 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 22:32:45 INFO  LogUtil:11 - Ended LoginPage - submitForm
+2026-09-19 22:32:45 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 22:32:47 INFO  LogUtil:11 - Started LoginPage - submitForm
+2026-09-19 22:37:02 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@6622a690
+2026-09-19 22:37:02 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:37:05 INFO  LogUtil:11 - User - KJJXAH : Pwd - NPZURUWV
+2026-09-19 22:37:05 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 22:37:05 INFO  LogUtil:11 - Ended Registration Page - submitForm
+2026-09-19 22:38:16 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@701a32
+2026-09-19 22:38:16 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:38:18 INFO  LogUtil:11 - User - EICVOC : Pwd - NOGKCRUB
+2026-09-19 22:38:18 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 22:38:19 INFO  LogUtil:11 - Ended Registration Page - submitForm
+2026-09-19 22:38:19 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 22:38:20 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 22:38:26 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@701a32
+2026-09-19 22:38:26 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:38:28 INFO  LogUtil:11 - User - CXRHHS : Pwd - SMZFOGYG
+2026-09-19 22:38:28 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 22:38:29 INFO  LogUtil:11 - Ended Registration Page - submitForm
+2026-09-19 22:41:22 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@2aa27288
+2026-09-19 22:41:22 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:41:24 INFO  LogUtil:11 - User - WCEHMQ : Pwd - OLKKHLRO
+2026-09-19 22:41:24 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 22:41:24 INFO  LogUtil:11 - Ended Registration Page - submitForm
+2026-09-19 22:41:30 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@2aa27288
+2026-09-19 22:41:30 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:41:33 INFO  LogUtil:11 - User - VECGLN : Pwd - XRUZLWFZ
+2026-09-19 22:41:33 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 22:41:33 INFO  LogUtil:11 - Ended Registration Page - submitForm
+2026-09-19 22:44:38 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@34188d6c
+2026-09-19 22:44:38 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@34188d6c
+2026-09-19 22:44:38 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:44:38 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:44:40 INFO  LogUtil:11 - User - AAQOZQ : Pwd - TIARYYUU
+2026-09-19 22:44:40 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 22:44:41 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 22:44:51 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 22:48:00 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@1e38c9ef
+2026-09-19 22:48:00 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@1e38c9ef
+2026-09-19 22:48:00 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:48:00 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 22:48:02 INFO  LogUtil:11 - User - SSOMXL : Pwd - EEYANFIV
+2026-09-19 22:48:02 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 22:48:02 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 22:48:12 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 23:08:19 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@750d9ce3
+2026-09-19 23:08:19 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@4717b128
+2026-09-19 23:08:19 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 23:08:19 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 23:08:22 INFO  LogUtil:11 - User - KLSCJH : Pwd - VKCPCOIV
+2026-09-19 23:08:23 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 23:08:23 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 23:08:33 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 23:13:23 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@7e316a49
+2026-09-19 23:13:23 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 23:13:26 INFO  LogUtil:11 - User - UYTEGB : Pwd - CTAWWEVO
+2026-09-19 23:13:26 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 23:13:27 INFO  LogUtil:11 - Ended Registration Page - submitForm
+2026-09-19 23:13:27 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@99aa17a
+2026-09-19 23:13:27 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 23:13:29 INFO  LogUtil:11 - User - ZDYOSE : Pwd - QBQCLKTB
+2026-09-19 23:13:29 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 23:13:30 INFO  LogUtil:11 - Ended Registration Page - submitForm
+2026-09-19 23:14:57 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@6104f627
+2026-09-19 23:14:57 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 23:14:59 INFO  LogUtil:11 - User - AAGIQW : Pwd - PHFCLKQS
+2026-09-19 23:14:59 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 23:15:00 INFO  LogUtil:11 - Ended Registration Page - submitForm
+2026-09-19 23:15:01 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@7db4fcc6
+2026-09-19 23:15:01 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 23:15:03 INFO  LogUtil:11 - User - WBYXTY : Pwd - RPSRUHHX
+2026-09-19 23:15:03 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 23:15:04 INFO  LogUtil:11 - Ended Registration Page - submitForm
+2026-09-19 23:24:17 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@6952b242
+2026-09-19 23:24:17 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 23:24:19 INFO  LogUtil:11 - User - DBFFFS : Pwd - JRBCRSRW
+2026-09-19 23:24:19 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 23:24:20 INFO  LogUtil:11 - Test Context Is - com.parabank.TestContext@2a3ce125
+2026-09-19 23:24:20 INFO  LogUtil:11 - RegisterTest - setUpRegisterPage
+2026-09-19 23:24:20 INFO  LogUtil:11 - Ended Registration Page - submitForm
+2026-09-19 23:24:22 INFO  LogUtil:11 - User - AIJVXH : Pwd - THSIYRYW
+2026-09-19 23:24:22 INFO  LogUtil:11 - Started Registration Page - submitForm
+2026-09-19 23:24:22 INFO  LogUtil:11 - Ended Registration Page - submitForm

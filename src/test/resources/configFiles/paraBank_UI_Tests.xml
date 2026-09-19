@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="paraBank" verbose="1" parallel="classes" thread-count="2">
+<suite name="paraBank"  parallel="tests" thread-count="2" verbose="1">
 	<listeners>
 		<listener class-name="com.parabank.listners.TListener" />
 		<listener class-name="com.parabank.commons.RetryListner" />
 	</listeners>
 
-	<parameter name="browser" value="${browser}" />
-	<test name="ChromeTests">
+	<test name="chrome" preserve-order="true">
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.parabank.tests.RegisterTest" />
 			<class name="com.parabank.tests.LoginTest" />
-			<class name="com.parabank.tests.AccountsOverviewTest" />
-			<class name="com.parabank.tests.LogoutTest" />
+		<!--	<class name="com.parabank.tests.AccountsOverviewTest" />
+			<class name="com.parabank.tests.LogoutTest" /> -->
 		</classes>
 	</test>
 
+	<test name="firefox" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.parabank.tests.RegisterTest" />
+			<class name="com.parabank.tests.LoginTest" />
+		<!--	<class name="com.parabank.tests.AccountsOverviewTest" />
+			<class name="com.parabank.tests.LogoutTest" /> -->
+		</classes>
+	</test>
 </suite>

@@ -1,7 +1,5 @@
 package com.parabank.pages;
 
-import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,11 +8,13 @@ import com.parabank.TestContext;
 import com.parabank.commons.UserInfo;
 import com.parabank.utils.ExtentTestManager;
 import com.parabank.utils.LogUtil;
+import com.parabank.utils.WaitsUtil;
 
 public class RegisterPage {	
 	
 	UserInfo uInfo;
 	TestContext tContext;
+	WaitsUtil wait;
 	
 	public static final String register_Link__Xpath = "//a[text()='Register']";
 	
@@ -25,7 +25,7 @@ public class RegisterPage {
 	public static final String address_state_Xpath = "//*[@id='customerForm']/table/tbody/tr/td/input[contains(@id,'state')]";
 	public static final String address_zipCode_Xpath = "//*[@id='customerForm']/table/tbody/tr/td/input[contains(@id,'zipCode')]";
 	public static final String phoneNumber_Xpath = "//*[@id='customerForm']/table/tbody/tr/td/input[contains(@id,'phoneNumber')]";
-	public static final String ssn_Xppath = "//*[@id='customerForm']/table/tbody/tr/td/input[contains(@id,'ssn')]";
+	public static final String ssn_Xpath = "//*[@id='customerForm']/table/tbody/tr/td/input[contains(@id,'ssn')]";
 	public static final String username_Xpath = "//*[@id='customerForm']/table/tbody/tr/td/input[contains(@id,'username')]";
 	public static final String password_Xpath = "//*[@id='customerForm']/table/tbody/tr/td/input[contains(@id,'password')]";
 	public static final String confirm_pwd_Xpath = "//*[@id='customerForm']/table/tbody/tr/td/input[contains(@id,'repeatedPassword')]";
@@ -41,6 +41,7 @@ public class RegisterPage {
 		this.driver = driver;
 		driver.get(url);
 		clickOnRegisterBtn();	
+		wait = new WaitsUtil(driver);
 	}
 	
 	public void clickOnRegisterBtn() {
@@ -76,7 +77,7 @@ public class RegisterPage {
 	}
 	
 	public void enterSSN() {
-		driver.findElement(By.xpath(ssn_Xppath)).sendKeys("123-45-6789");
+		driver.findElement(By.xpath(ssn_Xpath)).sendKeys("123-45-6789");
 	}
 	
 	public void enterUserName() {
@@ -98,16 +99,15 @@ public class RegisterPage {
 	}
 	
 	public String registrationSubmitMessage() {
-		WebElement validateText = driver.findElement(By.xpath(register_Success_Page_Xpath));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+		WebElement validateText = wait.waitElementPresent(By.xpath(register_Success_Page_Xpath));
 		return validateText.getText();
 	}
 	
 	
 	public void submitForm(UserInfo uInfo) {
 		this.uInfo = uInfo;
-		LogUtil.info("Started LoginPage - submitForm");
-		ExtentTestManager.getTest().info("Started LoginPage - submitForm");
+		LogUtil.info("Started Registration Page - submitForm");
+		ExtentTestManager.getTest().info("Started Registration Page - submitForm");
 		
 		enterFirstName();
 		enterLastName();
@@ -122,7 +122,7 @@ public class RegisterPage {
 		enterPassword();
 		enterConfirmPWD();
 		submitBtn();
-		LogUtil.info("Ended LoginPage - submitForm");
-		ExtentTestManager.getTest().info("Ended LoginPage - submitForm");
+		LogUtil.info("Ended Registration Page - submitForm");
+		ExtentTestManager.getTest().info("Ended Registration Page - submitForm");
 	}
 }

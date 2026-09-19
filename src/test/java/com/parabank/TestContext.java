@@ -6,7 +6,8 @@ import com.parabank.commons.UserInfo;
 
 public class TestContext {
 	
-	private static TestContext context;
+	private static ThreadLocal<TestContext> context =
+			ThreadLocal.withInitial(TestContext::new);
 	private UserInfo userInfo;
 	
 	UserInfo uInfo;
@@ -15,11 +16,7 @@ public class TestContext {
 	public TestContext() {}
 	
 	public static TestContext getTestContext() {
-		
-		if(context == null) 
-			context = new TestContext();
-		
-		return context;
+		return context.get();
 	}
 
 	public UserInfo getUserInfo() {

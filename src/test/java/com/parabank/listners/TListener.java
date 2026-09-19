@@ -25,14 +25,14 @@ public class TListener implements ITestListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		ExtentTestManager.getTest().fail(result.getMethod().getMethodName() + " - Test Failled");
-		ExtentTestManager.getTest().fail("Test Failled ");
-		System.out.println("Test Faillure - "+result.getMethod().getMethodName());
+		ExtentTestManager.getTest().fail(result.getMethod().getMethodName() + " - Test Failed");
+		ExtentTestManager.getTest().fail("Test Failed ");
+		System.out.println("Test Failure - "+result.getMethod().getMethodName());
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		ExtentTestManager.getTest().skip(result.getMethod().getMethodName() + " - Test Failled");
+		ExtentTestManager.getTest().skip(result.getMethod().getMethodName() + " - Test Skipped");
 		ExtentTestManager.getTest().skip("Test Skipped ");
 		System.out.println("Test Skipped - "+result.getMethod().getMethodName());
 	}
